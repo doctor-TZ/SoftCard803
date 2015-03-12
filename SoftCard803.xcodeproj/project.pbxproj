@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CE92031AB10FA7007CBB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92021AB10FA7007CBB5D /* main.m */; };
+		18CE92061AB10FA7007CBB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92051AB10FA7007CBB5D /* AppDelegate.m */; };
+		18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92071AB10FA7007CBB5D /* Images.xcassets */; };
+		18CE920B1AB10FA7007CBB5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92091AB10FA7007CBB5D /* LaunchScreen.xib */; };
+		18CE92171AB10FA7007CBB5D /* SoftCard803Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CE92111AB10FA7007CBB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CE91F51AB10FA7007CBB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE91FC1AB10FA7007CBB5D;
+			remoteInfo = SoftCard803;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftCard803.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE92011AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE92021AB10FA7007CBB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CE92041AB10FA7007CBB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CE92051AB10FA7007CBB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CE92071AB10FA7007CBB5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18CE920A1AB10FA7007CBB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftCard803Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE92151AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftCard803Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CE91FA1AB10FA7007CBB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE920D1AB10FA7007CBB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CE91F41AB10FA7007CBB5D = {
+			isa = PBXGroup;
+			children = (
+				18CE91FF1AB10FA7007CBB5D /* SoftCard803 */,
+				18CE92131AB10FA7007CBB5D /* SoftCard803Tests */,
+				18CE91FE1AB10FA7007CBB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CE91FE1AB10FA7007CBB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */,
+				18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CE91FF1AB10FA7007CBB5D /* SoftCard803 */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92041AB10FA7007CBB5D /* AppDelegate.h */,
+				18CE92051AB10FA7007CBB5D /* AppDelegate.m */,
+				18CE92071AB10FA7007CBB5D /* Images.xcassets */,
+				18CE92091AB10FA7007CBB5D /* LaunchScreen.xib */,
+				18CE92001AB10FA7007CBB5D /* Supporting Files */,
+			);
+			path = SoftCard803;
+			sourceTree = "<group>";
+		};
+		18CE92001AB10FA7007CBB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92011AB10FA7007CBB5D /* Info.plist */,
+				18CE92021AB10FA7007CBB5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CE92131AB10FA7007CBB5D /* SoftCard803Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */,
+				18CE92141AB10FA7007CBB5D /* Supporting Files */,
+			);
+			path = SoftCard803Tests;
+			sourceTree = "<group>";
+		};
+		18CE92141AB10FA7007CBB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92151AB10FA7007CBB5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE91FC1AB10FA7007CBB5D /* SoftCard803 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803" */;
+			buildPhases = (
+				18CE91F91AB10FA7007CBB5D /* Sources */,
+				18CE91FA1AB10FA7007CBB5D /* Frameworks */,
+				18CE91FB1AB10FA7007CBB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftCard803;
+			productName = SoftCard803;
+			productReference = 18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CE920F1AB10FA7007CBB5D /* SoftCard803Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803Tests" */;
+			buildPhases = (
+				18CE920C1AB10FA7007CBB5D /* Sources */,
+				18CE920D1AB10FA7007CBB5D /* Frameworks */,
+				18CE920E1AB10FA7007CBB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CE92121AB10FA7007CBB5D /* PBXTargetDependency */,
+			);
+			name = SoftCard803Tests;
+			productName = SoftCard803Tests;
+			productReference = 18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CE91F51AB10FA7007CBB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = iOSlearning;
+				TargetAttributes = {
+					18CE91FC1AB10FA7007CBB5D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18CE920F1AB10FA7007CBB5D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18CE91FC1AB10FA7007CBB5D;
+					};
+				};
+			};
+			buildConfigurationList = 18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "SoftCard803" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CE91F41AB10FA7007CBB5D;
+			productRefGroup = 18CE91FE1AB10FA7007CBB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE91FC1AB10FA7007CBB5D /* SoftCard803 */,
+				18CE920F1AB10FA7007CBB5D /* SoftCard803Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CE91FB1AB10FA7007CBB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE920B1AB10FA7007CBB5D /* LaunchScreen.xib in Resources */,
+				18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE920E1AB10FA7007CBB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CE91F91AB10FA7007CBB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE92061AB10FA7007CBB5D /* AppDelegate.m in Sources */,
+				18CE92031AB10FA7007CBB5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE920C1AB10FA7007CBB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE92171AB10FA7007CBB5D /* SoftCard803Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CE92121AB10FA7007CBB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE91FC1AB10FA7007CBB5D /* SoftCard803 */;
+			targetProxy = 18CE92111AB10FA7007CBB5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CE92091AB10FA7007CBB5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE920A1AB10FA7007CBB5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CE92181AB10FA7007CBB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CE92191AB10FA7007CBB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CE921B1AB10FA7007CBB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoftCard803/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CE921C1AB10FA7007CBB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoftCard803/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CE921E1AB10FA7007CBB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoftCard803Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCard803.app/SoftCard803";
+			};
+			name = Debug;
+		};
+		18CE921F1AB10FA7007CBB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SoftCard803Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCard803.app/SoftCard803";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "SoftCard803" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE92181AB10FA7007CBB5D /* Debug */,
+				18CE92191AB10FA7007CBB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE921B1AB10FA7007CBB5D /* Debug */,
+				18CE921C1AB10FA7007CBB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE921E1AB10FA7007CBB5D /* Debug */,
+				18CE921F1AB10FA7007CBB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CE91F51AB10FA7007CBB5D /* Project object */;
+}
