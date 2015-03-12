@@ -12,6 +12,106 @@
 		18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92071AB10FA7007CBB5D /* Images.xcassets */; };
 		18CE920B1AB10FA7007CBB5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92091AB10FA7007CBB5D /* LaunchScreen.xib */; };
 		18CE92171AB10FA7007CBB5D /* SoftCard803Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */; };
+		18CE92231AB111D2007CBB5D /* TheMasterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92221AB111D2007CBB5D /* TheMasterStore.m */; };
+		18CE92261AB11204007CBB5D /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92251AB11204007CBB5D /* ContactInfo.m */; };
+		18CE92291AB112C3007CBB5D /* ContactInfoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92281AB112C3007CBB5D /* ContactInfoStore.m */; };
+		18CE922C1AB113E6007CBB5D /* TheIconStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE922B1AB113E6007CBB5D /* TheIconStore.m */; };
+		18CE92301AB1148E007CBB5D /* CardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE922F1AB1148E007CBB5D /* CardsTableViewController.m */; };
+		18CE92361AB116D0007CBB5D /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92331AB116D0007CBB5D /* QRCodeReaderView.m */; };
+		18CE92371AB116D0007CBB5D /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92351AB116D0007CBB5D /* QRCodeReaderViewController.m */; };
+		18CE923B1AB1174C007CBB5D /* CardsTableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE923A1AB1174C007CBB5D /* CardsTableDetailViewController.m */; };
+		18CE923E1AB1176C007CBB5D /* MyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE923D1AB1176C007CBB5D /* MyCardViewController.m */; };
+		18CE92411AB11783007CBB5D /* MyQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92401AB11783007CBB5D /* MyQRCodeViewController.m */; };
+		18CE92441AB118B4007CBB5D /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92431AB118B4007CBB5D /* BaseWebViewController.m */; };
+		18CE92471AB11AD6007CBB5D /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92461AB11AD6007CBB5D /* MyDetailViewController.m */; };
+		18CE924D1AB11B22007CBB5D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE924C1AB11B22007CBB5D /* BaseViewController.m */; };
+		18CE92941AB11D64007CBB5D /* 初始化背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */; };
+		18CE92951AB11D64007CBB5D /* QRCodeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */; };
+		18CE92961AB11D64007CBB5D /* 扫一扫@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */; };
+		18CE92971AB11D64007CBB5D /* 我的二维码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */; };
+		18CE92981AB11D64007CBB5D /* nil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92541AB11D64007CBB5D /* nil@2x.png */; };
+		18CE92991AB11D64007CBB5D /* cancelEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */; };
+		18CE929A1AB11D64007CBB5D /* goForwardDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */; };
+		18CE929B1AB11D64007CBB5D /* goBackDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92571AB11D64007CBB5D /* goBackDisabled@2x.png */; };
+		18CE929C1AB11D64007CBB5D /* goBackEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */; };
+		18CE929D1AB11D64007CBB5D /* goForwardEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */; };
+		18CE929E1AB11D64007CBB5D /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925A1AB11D64007CBB5D /* 我的@2x.png */; };
+		18CE929F1AB11D64007CBB5D /* 名片夹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */; };
+		18CE92A01AB11D64007CBB5D /* qzone F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925C1AB11D64007CBB5D /* qzone F.png */; };
+		18CE92A11AB11D64007CBB5D /* qzone F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925D1AB11D64007CBB5D /* qzone F@2x.png */; };
+		18CE92A21AB11D64007CBB5D /* reddit L.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925E1AB11D64007CBB5D /* reddit L.png */; };
+		18CE92A31AB11D64007CBB5D /* reddit L@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925F1AB11D64007CBB5D /* reddit L@2x.png */; };
+		18CE92A41AB11D64007CBB5D /* quora F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92601AB11D64007CBB5D /* quora F.png */; };
+		18CE92A51AB11D64007CBB5D /* quora F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92611AB11D64007CBB5D /* quora F@2x.png */; };
+		18CE92A61AB11D64007CBB5D /* tumblr F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92621AB11D64007CBB5D /* tumblr F.png */; };
+		18CE92A71AB11D64007CBB5D /* tumblr F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92631AB11D64007CBB5D /* tumblr F@2x.png */; };
+		18CE92A81AB11D64007CBB5D /* vine F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92641AB11D64007CBB5D /* vine F.png */; };
+		18CE92A91AB11D64007CBB5D /* vine F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92651AB11D64007CBB5D /* vine F@2x.png */; };
+		18CE92AA1AB11D64007CBB5D /* snapchat F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92661AB11D64007CBB5D /* snapchat F.png */; };
+		18CE92AB1AB11D64007CBB5D /* snapchat F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92671AB11D64007CBB5D /* snapchat F@2x.png */; };
+		18CE92AC1AB11D64007CBB5D /* path F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92681AB11D64007CBB5D /* path F.png */; };
+		18CE92AD1AB11D64007CBB5D /* path F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92691AB11D64007CBB5D /* path F@2x.png */; };
+		18CE92AE1AB11D64007CBB5D /* dribbble F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926A1AB11D64007CBB5D /* dribbble F.png */; };
+		18CE92AF1AB11D64007CBB5D /* dribbble F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926B1AB11D64007CBB5D /* dribbble F@2x.png */; };
+		18CE92B01AB11D64007CBB5D /* pinterest F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926C1AB11D64007CBB5D /* pinterest F.png */; };
+		18CE92B11AB11D64007CBB5D /* pinterest F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926D1AB11D64007CBB5D /* pinterest F@2x.png */; };
+		18CE92B21AB11D64007CBB5D /* googleplus F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926E1AB11D64007CBB5D /* googleplus F.png */; };
+		18CE92B31AB11D64007CBB5D /* googleplus F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE926F1AB11D64007CBB5D /* googleplus F@2x.png */; };
+		18CE92B41AB11D64007CBB5D /* email F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92701AB11D64007CBB5D /* email F.png */; };
+		18CE92B51AB11D64007CBB5D /* email F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92711AB11D64007CBB5D /* email F@2x.png */; };
+		18CE92B61AB11D64007CBB5D /* twitter F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92721AB11D64007CBB5D /* twitter F.png */; };
+		18CE92B71AB11D64007CBB5D /* twitter F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92731AB11D64007CBB5D /* twitter F@2x.png */; };
+		18CE92B81AB11D64007CBB5D /* facebook F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92741AB11D64007CBB5D /* facebook F.png */; };
+		18CE92B91AB11D64007CBB5D /* facebook F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92751AB11D64007CBB5D /* facebook F@2x.png */; };
+		18CE92BA1AB11D64007CBB5D /* evernote F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92761AB11D64007CBB5D /* evernote F.png */; };
+		18CE92BB1AB11D64007CBB5D /* evernote F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92771AB11D64007CBB5D /* evernote F@2x.png */; };
+		18CE92BC1AB11D64007CBB5D /* instagram F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92781AB11D64007CBB5D /* instagram F.png */; };
+		18CE92BD1AB11D64007CBB5D /* instagram F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92791AB11D64007CBB5D /* instagram F@2x.png */; };
+		18CE92BE1AB11D64007CBB5D /* linkedin F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927A1AB11D64007CBB5D /* linkedin F.png */; };
+		18CE92BF1AB11D64007CBB5D /* linkedin F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927B1AB11D64007CBB5D /* linkedin F@2x.png */; };
+		18CE92C01AB11D64007CBB5D /* renren F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927C1AB11D64007CBB5D /* renren F.png */; };
+		18CE92C11AB11D64007CBB5D /* renren F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927D1AB11D64007CBB5D /* renren F@2x.png */; };
+		18CE92C21AB11D64007CBB5D /* douban F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927E1AB11D64007CBB5D /* douban F.png */; };
+		18CE92C31AB11D64007CBB5D /* douban F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE927F1AB11D64007CBB5D /* douban F@2x.png */; };
+		18CE92C41AB11D64007CBB5D /* youku F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92801AB11D64007CBB5D /* youku F.png */; };
+		18CE92C51AB11D64007CBB5D /* youku F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92811AB11D64007CBB5D /* youku F@2x.png */; };
+		18CE92C61AB11D64007CBB5D /* zhihu F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92821AB11D64007CBB5D /* zhihu F.png */; };
+		18CE92C71AB11D64007CBB5D /* zhihu F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92831AB11D64007CBB5D /* zhihu F@2x.png */; };
+		18CE92C81AB11D64007CBB5D /* alipay F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92841AB11D64007CBB5D /* alipay F.png */; };
+		18CE92C91AB11D64007CBB5D /* alipay F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92851AB11D64007CBB5D /* alipay F@2x.png */; };
+		18CE92CA1AB11D64007CBB5D /* taobao F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92861AB11D64007CBB5D /* taobao F.png */; };
+		18CE92CB1AB11D64007CBB5D /* taobao F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92871AB11D64007CBB5D /* taobao F@2x.png */; };
+		18CE92CC1AB11D64007CBB5D /* dianpin F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92881AB11D64007CBB5D /* dianpin F.png */; };
+		18CE92CD1AB11D64007CBB5D /* dianpin F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92891AB11D64007CBB5D /* dianpin F@2x.png */; };
+		18CE92CE1AB11D64007CBB5D /* weibo F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928A1AB11D64007CBB5D /* weibo F.png */; };
+		18CE92CF1AB11D64007CBB5D /* weibo F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928B1AB11D64007CBB5D /* weibo F@2x.png */; };
+		18CE92D01AB11D64007CBB5D /* QQ F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928C1AB11D64007CBB5D /* QQ F.png */; };
+		18CE92D11AB11D64007CBB5D /* QQ F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928D1AB11D64007CBB5D /* QQ F@2x.png */; };
+		18CE92D21AB11D64007CBB5D /* wechat moment F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928E1AB11D64007CBB5D /* wechat moment F.png */; };
+		18CE92D31AB11D64007CBB5D /* wechat moment F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE928F1AB11D64007CBB5D /* wechat moment F@2x.png */; };
+		18CE92D41AB11D64007CBB5D /* phone_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92901AB11D64007CBB5D /* phone_background.png */; };
+		18CE92D51AB11D64007CBB5D /* phone_background@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92911AB11D64007CBB5D /* phone_background@1x.png */; };
+		18CE92D61AB11D64007CBB5D /* mail_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92921AB11D64007CBB5D /* mail_background.png */; };
+		18CE92D71AB11D64007CBB5D /* mail_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92931AB11D64007CBB5D /* mail_background@2x.png */; };
+		18CE92EA1AB11E32007CBB5D /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92DA1AB11E32007CBB5D /* bitstream.c */; };
+		18CE92EB1AB11E32007CBB5D /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92DC1AB11E32007CBB5D /* mask.c */; };
+		18CE92EC1AB11E32007CBB5D /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92DF1AB11E32007CBB5D /* QRCodeGenerator.m */; };
+		18CE92ED1AB11E32007CBB5D /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92E01AB11E32007CBB5D /* qrencode.c */; };
+		18CE92EE1AB11E32007CBB5D /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92E21AB11E32007CBB5D /* qrinput.c */; };
+		18CE92EF1AB11E32007CBB5D /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92E41AB11E32007CBB5D /* qrspec.c */; };
+		18CE92F01AB11E32007CBB5D /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92E61AB11E32007CBB5D /* rscode.c */; };
+		18CE92F11AB11E32007CBB5D /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92E81AB11E32007CBB5D /* split.c */; };
+		18CE92F31AB11E56007CBB5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92F21AB11E56007CBB5D /* CoreGraphics.framework */; };
+		18CE92F51AB11E60007CBB5D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92F41AB11E60007CBB5D /* CoreTelephony.framework */; };
+		18CE92F71AB11E68007CBB5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92F61AB11E68007CBB5D /* CoreLocation.framework */; };
+		18CE92F91AB11E72007CBB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92F81AB11E72007CBB5D /* Foundation.framework */; };
+		18CE92FB1AB11E81007CBB5D /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92FA1AB11E81007CBB5D /* libiconv.dylib */; };
+		18CE92FD1AB11E8E007CBB5D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92FC1AB11E8E007CBB5D /* libicucore.dylib */; };
+		18CE92FF1AB11EB0007CBB5D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE92FE1AB11EB0007CBB5D /* libsqlite3.0.dylib */; };
+		18CE93011AB11EC2007CBB5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE93001AB11EC2007CBB5D /* MobileCoreServices.framework */; };
+		18CE93031AB11ECD007CBB5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE93021AB11ECD007CBB5D /* SystemConfiguration.framework */; };
+		18CE93051AB11ED5007CBB5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE93041AB11ED5007CBB5D /* UIKit.framework */; };
+		18CE93071AB11EE0007CBB5D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE93061AB11EE0007CBB5D /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +128,136 @@
 		18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftCard803.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE92011AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE92021AB10FA7007CBB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18CE92041AB10FA7007CBB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18CE92051AB10FA7007CBB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CE92041AB10FA7007CBB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SoftCard803/AppDelegate.h; sourceTree = "<group>"; };
+		18CE92051AB10FA7007CBB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SoftCard803/AppDelegate.m; sourceTree = "<group>"; };
 		18CE92071AB10FA7007CBB5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18CE920A1AB10FA7007CBB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftCard803Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE92151AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftCard803Tests.m; sourceTree = "<group>"; };
+		18CE92201AB11191007CBB5D /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		18CE92211AB111D2007CBB5D /* TheMasterStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheMasterStore.h; sourceTree = "<group>"; };
+		18CE92221AB111D2007CBB5D /* TheMasterStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheMasterStore.m; sourceTree = "<group>"; };
+		18CE92241AB11204007CBB5D /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		18CE92251AB11204007CBB5D /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
+		18CE92271AB112C3007CBB5D /* ContactInfoStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfoStore.h; sourceTree = "<group>"; };
+		18CE92281AB112C3007CBB5D /* ContactInfoStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfoStore.m; sourceTree = "<group>"; };
+		18CE922A1AB113E6007CBB5D /* TheIconStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheIconStore.h; sourceTree = "<group>"; };
+		18CE922B1AB113E6007CBB5D /* TheIconStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheIconStore.m; sourceTree = "<group>"; };
+		18CE922E1AB1148E007CBB5D /* CardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsTableViewController.h; sourceTree = "<group>"; };
+		18CE922F1AB1148E007CBB5D /* CardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsTableViewController.m; sourceTree = "<group>"; };
+		18CE92311AB116D0007CBB5D /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		18CE92321AB116D0007CBB5D /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		18CE92331AB116D0007CBB5D /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		18CE92341AB116D0007CBB5D /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		18CE92351AB116D0007CBB5D /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		18CE92391AB1174B007CBB5D /* CardsTableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsTableDetailViewController.h; sourceTree = "<group>"; };
+		18CE923A1AB1174C007CBB5D /* CardsTableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsTableDetailViewController.m; sourceTree = "<group>"; };
+		18CE923C1AB1176C007CBB5D /* MyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardViewController.h; sourceTree = "<group>"; };
+		18CE923D1AB1176C007CBB5D /* MyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardViewController.m; sourceTree = "<group>"; };
+		18CE923F1AB11783007CBB5D /* MyQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRCodeViewController.h; sourceTree = "<group>"; };
+		18CE92401AB11783007CBB5D /* MyQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRCodeViewController.m; sourceTree = "<group>"; };
+		18CE92421AB118B4007CBB5D /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		18CE92431AB118B4007CBB5D /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		18CE92451AB11AD6007CBB5D /* MyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailViewController.h; sourceTree = "<group>"; };
+		18CE92461AB11AD6007CBB5D /* MyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailViewController.m; sourceTree = "<group>"; };
+		18CE924B1AB11B22007CBB5D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18CE924C1AB11B22007CBB5D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初始化背景@2x.png"; sourceTree = "<group>"; };
+		18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeBackground@2x.png"; sourceTree = "<group>"; };
+		18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫@2x.png"; sourceTree = "<group>"; };
+		18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的二维码@2x.png"; sourceTree = "<group>"; };
+		18CE92541AB11D64007CBB5D /* nil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nil@2x.png"; sourceTree = "<group>"; };
+		18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelEnabled@2x.png"; sourceTree = "<group>"; };
+		18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goForwardDisabled@2x.png"; sourceTree = "<group>"; };
+		18CE92571AB11D64007CBB5D /* goBackDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goBackDisabled@2x.png"; sourceTree = "<group>"; };
+		18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goBackEnabled@2x.png"; sourceTree = "<group>"; };
+		18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goForwardEnabled@2x.png"; sourceTree = "<group>"; };
+		18CE925A1AB11D64007CBB5D /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
+		18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名片夹@2x.png"; sourceTree = "<group>"; };
+		18CE925C1AB11D64007CBB5D /* qzone F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qzone F.png"; sourceTree = "<group>"; };
+		18CE925D1AB11D64007CBB5D /* qzone F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qzone F@2x.png"; sourceTree = "<group>"; };
+		18CE925E1AB11D64007CBB5D /* reddit L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reddit L.png"; sourceTree = "<group>"; };
+		18CE925F1AB11D64007CBB5D /* reddit L@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reddit L@2x.png"; sourceTree = "<group>"; };
+		18CE92601AB11D64007CBB5D /* quora F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quora F.png"; sourceTree = "<group>"; };
+		18CE92611AB11D64007CBB5D /* quora F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quora F@2x.png"; sourceTree = "<group>"; };
+		18CE92621AB11D64007CBB5D /* tumblr F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumblr F.png"; sourceTree = "<group>"; };
+		18CE92631AB11D64007CBB5D /* tumblr F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumblr F@2x.png"; sourceTree = "<group>"; };
+		18CE92641AB11D64007CBB5D /* vine F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vine F.png"; sourceTree = "<group>"; };
+		18CE92651AB11D64007CBB5D /* vine F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vine F@2x.png"; sourceTree = "<group>"; };
+		18CE92661AB11D64007CBB5D /* snapchat F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snapchat F.png"; sourceTree = "<group>"; };
+		18CE92671AB11D64007CBB5D /* snapchat F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snapchat F@2x.png"; sourceTree = "<group>"; };
+		18CE92681AB11D64007CBB5D /* path F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "path F.png"; sourceTree = "<group>"; };
+		18CE92691AB11D64007CBB5D /* path F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "path F@2x.png"; sourceTree = "<group>"; };
+		18CE926A1AB11D64007CBB5D /* dribbble F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dribbble F.png"; sourceTree = "<group>"; };
+		18CE926B1AB11D64007CBB5D /* dribbble F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dribbble F@2x.png"; sourceTree = "<group>"; };
+		18CE926C1AB11D64007CBB5D /* pinterest F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinterest F.png"; sourceTree = "<group>"; };
+		18CE926D1AB11D64007CBB5D /* pinterest F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinterest F@2x.png"; sourceTree = "<group>"; };
+		18CE926E1AB11D64007CBB5D /* googleplus F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleplus F.png"; sourceTree = "<group>"; };
+		18CE926F1AB11D64007CBB5D /* googleplus F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleplus F@2x.png"; sourceTree = "<group>"; };
+		18CE92701AB11D64007CBB5D /* email F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email F.png"; sourceTree = "<group>"; };
+		18CE92711AB11D64007CBB5D /* email F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email F@2x.png"; sourceTree = "<group>"; };
+		18CE92721AB11D64007CBB5D /* twitter F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter F.png"; sourceTree = "<group>"; };
+		18CE92731AB11D64007CBB5D /* twitter F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter F@2x.png"; sourceTree = "<group>"; };
+		18CE92741AB11D64007CBB5D /* facebook F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook F.png"; sourceTree = "<group>"; };
+		18CE92751AB11D64007CBB5D /* facebook F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook F@2x.png"; sourceTree = "<group>"; };
+		18CE92761AB11D64007CBB5D /* evernote F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "evernote F.png"; sourceTree = "<group>"; };
+		18CE92771AB11D64007CBB5D /* evernote F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "evernote F@2x.png"; sourceTree = "<group>"; };
+		18CE92781AB11D64007CBB5D /* instagram F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram F.png"; sourceTree = "<group>"; };
+		18CE92791AB11D64007CBB5D /* instagram F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram F@2x.png"; sourceTree = "<group>"; };
+		18CE927A1AB11D64007CBB5D /* linkedin F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin F.png"; sourceTree = "<group>"; };
+		18CE927B1AB11D64007CBB5D /* linkedin F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin F@2x.png"; sourceTree = "<group>"; };
+		18CE927C1AB11D64007CBB5D /* renren F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "renren F.png"; sourceTree = "<group>"; };
+		18CE927D1AB11D64007CBB5D /* renren F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "renren F@2x.png"; sourceTree = "<group>"; };
+		18CE927E1AB11D64007CBB5D /* douban F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "douban F.png"; sourceTree = "<group>"; };
+		18CE927F1AB11D64007CBB5D /* douban F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "douban F@2x.png"; sourceTree = "<group>"; };
+		18CE92801AB11D64007CBB5D /* youku F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youku F.png"; sourceTree = "<group>"; };
+		18CE92811AB11D64007CBB5D /* youku F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youku F@2x.png"; sourceTree = "<group>"; };
+		18CE92821AB11D64007CBB5D /* zhihu F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhihu F.png"; sourceTree = "<group>"; };
+		18CE92831AB11D64007CBB5D /* zhihu F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhihu F@2x.png"; sourceTree = "<group>"; };
+		18CE92841AB11D64007CBB5D /* alipay F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay F.png"; sourceTree = "<group>"; };
+		18CE92851AB11D64007CBB5D /* alipay F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay F@2x.png"; sourceTree = "<group>"; };
+		18CE92861AB11D64007CBB5D /* taobao F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taobao F.png"; sourceTree = "<group>"; };
+		18CE92871AB11D64007CBB5D /* taobao F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taobao F@2x.png"; sourceTree = "<group>"; };
+		18CE92881AB11D64007CBB5D /* dianpin F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianpin F.png"; sourceTree = "<group>"; };
+		18CE92891AB11D64007CBB5D /* dianpin F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianpin F@2x.png"; sourceTree = "<group>"; };
+		18CE928A1AB11D64007CBB5D /* weibo F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo F.png"; sourceTree = "<group>"; };
+		18CE928B1AB11D64007CBB5D /* weibo F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo F@2x.png"; sourceTree = "<group>"; };
+		18CE928C1AB11D64007CBB5D /* QQ F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ F.png"; sourceTree = "<group>"; };
+		18CE928D1AB11D64007CBB5D /* QQ F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ F@2x.png"; sourceTree = "<group>"; };
+		18CE928E1AB11D64007CBB5D /* wechat moment F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat moment F.png"; sourceTree = "<group>"; };
+		18CE928F1AB11D64007CBB5D /* wechat moment F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat moment F@2x.png"; sourceTree = "<group>"; };
+		18CE92901AB11D64007CBB5D /* phone_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_background.png; sourceTree = "<group>"; };
+		18CE92911AB11D64007CBB5D /* phone_background@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_background@1x.png"; sourceTree = "<group>"; };
+		18CE92921AB11D64007CBB5D /* mail_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_background.png; sourceTree = "<group>"; };
+		18CE92931AB11D64007CBB5D /* mail_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_background@2x.png"; sourceTree = "<group>"; };
+		18CE92DA1AB11E32007CBB5D /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		18CE92DB1AB11E32007CBB5D /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		18CE92DC1AB11E32007CBB5D /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		18CE92DD1AB11E32007CBB5D /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		18CE92DE1AB11E32007CBB5D /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		18CE92DF1AB11E32007CBB5D /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		18CE92E01AB11E32007CBB5D /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		18CE92E11AB11E32007CBB5D /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		18CE92E21AB11E32007CBB5D /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		18CE92E31AB11E32007CBB5D /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		18CE92E41AB11E32007CBB5D /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		18CE92E51AB11E32007CBB5D /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		18CE92E61AB11E32007CBB5D /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		18CE92E71AB11E32007CBB5D /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		18CE92E81AB11E32007CBB5D /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		18CE92E91AB11E32007CBB5D /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		18CE92F21AB11E56007CBB5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18CE92F41AB11E60007CBB5D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18CE92F61AB11E68007CBB5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18CE92F81AB11E72007CBB5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18CE92FA1AB11E81007CBB5D /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		18CE92FC1AB11E8E007CBB5D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		18CE92FE1AB11EB0007CBB5D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		18CE93001AB11EC2007CBB5D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18CE93021AB11ECD007CBB5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18CE93041AB11ED5007CBB5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18CE93061AB11EE0007CBB5D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +265,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE93071AB11EE0007CBB5D /* MessageUI.framework in Frameworks */,
+				18CE93051AB11ED5007CBB5D /* UIKit.framework in Frameworks */,
+				18CE93031AB11ECD007CBB5D /* SystemConfiguration.framework in Frameworks */,
+				18CE93011AB11EC2007CBB5D /* MobileCoreServices.framework in Frameworks */,
+				18CE92FF1AB11EB0007CBB5D /* libsqlite3.0.dylib in Frameworks */,
+				18CE92FD1AB11E8E007CBB5D /* libicucore.dylib in Frameworks */,
+				18CE92FB1AB11E81007CBB5D /* libiconv.dylib in Frameworks */,
+				18CE92F91AB11E72007CBB5D /* Foundation.framework in Frameworks */,
+				18CE92F71AB11E68007CBB5D /* CoreLocation.framework in Frameworks */,
+				18CE92F51AB11E60007CBB5D /* CoreTelephony.framework in Frameworks */,
+				18CE92F31AB11E56007CBB5D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +292,8 @@
 		18CE91F41AB10FA7007CBB5D = {
 			isa = PBXGroup;
 			children = (
+				18CE92041AB10FA7007CBB5D /* AppDelegate.h */,
+				18CE92051AB10FA7007CBB5D /* AppDelegate.m */,
 				18CE91FF1AB10FA7007CBB5D /* SoftCard803 */,
 				18CE92131AB10FA7007CBB5D /* SoftCard803Tests */,
 				18CE91FE1AB10FA7007CBB5D /* Products */,
@@ -76,8 +312,12 @@
 		18CE91FF1AB10FA7007CBB5D /* SoftCard803 */ = {
 			isa = PBXGroup;
 			children = (
-				18CE92041AB10FA7007CBB5D /* AppDelegate.h */,
-				18CE92051AB10FA7007CBB5D /* AppDelegate.m */,
+				18CE93081AB11F69007CBB5D /* Framworks */,
+				18CE92D81AB11D71007CBB5D /* resource */,
+				18CE924E1AB11CC6007CBB5D /* mainController */,
+				18CE924F1AB11CE3007CBB5D /* baseController */,
+				18CE92381AB116D7007CBB5D /* third controller */,
+				18CE922D1AB1145D007CBB5D /* data */,
 				18CE92071AB10FA7007CBB5D /* Images.xcassets */,
 				18CE92091AB10FA7007CBB5D /* LaunchScreen.xib */,
 				18CE92001AB10FA7007CBB5D /* Supporting Files */,
@@ -109,6 +349,184 @@
 				18CE92151AB10FA7007CBB5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CE922D1AB1145D007CBB5D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92201AB11191007CBB5D /* Common.h */,
+				18CE92211AB111D2007CBB5D /* TheMasterStore.h */,
+				18CE92221AB111D2007CBB5D /* TheMasterStore.m */,
+				18CE92241AB11204007CBB5D /* ContactInfo.h */,
+				18CE92251AB11204007CBB5D /* ContactInfo.m */,
+				18CE92271AB112C3007CBB5D /* ContactInfoStore.h */,
+				18CE92281AB112C3007CBB5D /* ContactInfoStore.m */,
+				18CE922A1AB113E6007CBB5D /* TheIconStore.h */,
+				18CE922B1AB113E6007CBB5D /* TheIconStore.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		18CE92381AB116D7007CBB5D /* third controller */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92311AB116D0007CBB5D /* QRCodeReaderDelegate.h */,
+				18CE92321AB116D0007CBB5D /* QRCodeReaderView.h */,
+				18CE92331AB116D0007CBB5D /* QRCodeReaderView.m */,
+				18CE92341AB116D0007CBB5D /* QRCodeReaderViewController.h */,
+				18CE92351AB116D0007CBB5D /* QRCodeReaderViewController.m */,
+			);
+			name = "third controller";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18CE924E1AB11CC6007CBB5D /* mainController */ = {
+			isa = PBXGroup;
+			children = (
+				18CE922E1AB1148E007CBB5D /* CardsTableViewController.h */,
+				18CE922F1AB1148E007CBB5D /* CardsTableViewController.m */,
+				18CE923C1AB1176C007CBB5D /* MyCardViewController.h */,
+				18CE923D1AB1176C007CBB5D /* MyCardViewController.m */,
+				18CE92451AB11AD6007CBB5D /* MyDetailViewController.h */,
+				18CE92461AB11AD6007CBB5D /* MyDetailViewController.m */,
+				18CE923F1AB11783007CBB5D /* MyQRCodeViewController.h */,
+				18CE92401AB11783007CBB5D /* MyQRCodeViewController.m */,
+				18CE92391AB1174B007CBB5D /* CardsTableDetailViewController.h */,
+				18CE923A1AB1174C007CBB5D /* CardsTableDetailViewController.m */,
+			);
+			name = mainController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18CE924F1AB11CE3007CBB5D /* baseController */ = {
+			isa = PBXGroup;
+			children = (
+				18CE924B1AB11B22007CBB5D /* BaseViewController.h */,
+				18CE924C1AB11B22007CBB5D /* BaseViewController.m */,
+				18CE92421AB118B4007CBB5D /* BaseWebViewController.h */,
+				18CE92431AB118B4007CBB5D /* BaseWebViewController.m */,
+			);
+			name = baseController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18CE92D81AB11D71007CBB5D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */,
+				18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */,
+				18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */,
+				18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */,
+				18CE92541AB11D64007CBB5D /* nil@2x.png */,
+				18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */,
+				18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */,
+				18CE92571AB11D64007CBB5D /* goBackDisabled@2x.png */,
+				18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */,
+				18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */,
+				18CE925A1AB11D64007CBB5D /* 我的@2x.png */,
+				18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */,
+				18CE925C1AB11D64007CBB5D /* qzone F.png */,
+				18CE925D1AB11D64007CBB5D /* qzone F@2x.png */,
+				18CE925E1AB11D64007CBB5D /* reddit L.png */,
+				18CE925F1AB11D64007CBB5D /* reddit L@2x.png */,
+				18CE92601AB11D64007CBB5D /* quora F.png */,
+				18CE92611AB11D64007CBB5D /* quora F@2x.png */,
+				18CE92621AB11D64007CBB5D /* tumblr F.png */,
+				18CE92631AB11D64007CBB5D /* tumblr F@2x.png */,
+				18CE92641AB11D64007CBB5D /* vine F.png */,
+				18CE92651AB11D64007CBB5D /* vine F@2x.png */,
+				18CE92661AB11D64007CBB5D /* snapchat F.png */,
+				18CE92671AB11D64007CBB5D /* snapchat F@2x.png */,
+				18CE92681AB11D64007CBB5D /* path F.png */,
+				18CE92691AB11D64007CBB5D /* path F@2x.png */,
+				18CE926A1AB11D64007CBB5D /* dribbble F.png */,
+				18CE926B1AB11D64007CBB5D /* dribbble F@2x.png */,
+				18CE926C1AB11D64007CBB5D /* pinterest F.png */,
+				18CE926D1AB11D64007CBB5D /* pinterest F@2x.png */,
+				18CE926E1AB11D64007CBB5D /* googleplus F.png */,
+				18CE926F1AB11D64007CBB5D /* googleplus F@2x.png */,
+				18CE92701AB11D64007CBB5D /* email F.png */,
+				18CE92711AB11D64007CBB5D /* email F@2x.png */,
+				18CE92721AB11D64007CBB5D /* twitter F.png */,
+				18CE92731AB11D64007CBB5D /* twitter F@2x.png */,
+				18CE92741AB11D64007CBB5D /* facebook F.png */,
+				18CE92751AB11D64007CBB5D /* facebook F@2x.png */,
+				18CE92761AB11D64007CBB5D /* evernote F.png */,
+				18CE92771AB11D64007CBB5D /* evernote F@2x.png */,
+				18CE92781AB11D64007CBB5D /* instagram F.png */,
+				18CE92791AB11D64007CBB5D /* instagram F@2x.png */,
+				18CE927A1AB11D64007CBB5D /* linkedin F.png */,
+				18CE927B1AB11D64007CBB5D /* linkedin F@2x.png */,
+				18CE927C1AB11D64007CBB5D /* renren F.png */,
+				18CE927D1AB11D64007CBB5D /* renren F@2x.png */,
+				18CE927E1AB11D64007CBB5D /* douban F.png */,
+				18CE927F1AB11D64007CBB5D /* douban F@2x.png */,
+				18CE92801AB11D64007CBB5D /* youku F.png */,
+				18CE92811AB11D64007CBB5D /* youku F@2x.png */,
+				18CE92821AB11D64007CBB5D /* zhihu F.png */,
+				18CE92831AB11D64007CBB5D /* zhihu F@2x.png */,
+				18CE92841AB11D64007CBB5D /* alipay F.png */,
+				18CE92851AB11D64007CBB5D /* alipay F@2x.png */,
+				18CE92861AB11D64007CBB5D /* taobao F.png */,
+				18CE92871AB11D64007CBB5D /* taobao F@2x.png */,
+				18CE92881AB11D64007CBB5D /* dianpin F.png */,
+				18CE92891AB11D64007CBB5D /* dianpin F@2x.png */,
+				18CE928A1AB11D64007CBB5D /* weibo F.png */,
+				18CE928B1AB11D64007CBB5D /* weibo F@2x.png */,
+				18CE928C1AB11D64007CBB5D /* QQ F.png */,
+				18CE928D1AB11D64007CBB5D /* QQ F@2x.png */,
+				18CE928E1AB11D64007CBB5D /* wechat moment F.png */,
+				18CE928F1AB11D64007CBB5D /* wechat moment F@2x.png */,
+				18CE92901AB11D64007CBB5D /* phone_background.png */,
+				18CE92911AB11D64007CBB5D /* phone_background@1x.png */,
+				18CE92921AB11D64007CBB5D /* mail_background.png */,
+				18CE92931AB11D64007CBB5D /* mail_background@2x.png */,
+			);
+			name = resource;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18CE92D91AB11E32007CBB5D /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92DA1AB11E32007CBB5D /* bitstream.c */,
+				18CE92DB1AB11E32007CBB5D /* bitstream.h */,
+				18CE92DC1AB11E32007CBB5D /* mask.c */,
+				18CE92DD1AB11E32007CBB5D /* mask.h */,
+				18CE92DE1AB11E32007CBB5D /* QRCodeGenerator.h */,
+				18CE92DF1AB11E32007CBB5D /* QRCodeGenerator.m */,
+				18CE92E01AB11E32007CBB5D /* qrencode.c */,
+				18CE92E11AB11E32007CBB5D /* qrencode.h */,
+				18CE92E21AB11E32007CBB5D /* qrinput.c */,
+				18CE92E31AB11E32007CBB5D /* qrinput.h */,
+				18CE92E41AB11E32007CBB5D /* qrspec.c */,
+				18CE92E51AB11E32007CBB5D /* qrspec.h */,
+				18CE92E61AB11E32007CBB5D /* rscode.c */,
+				18CE92E71AB11E32007CBB5D /* rscode.h */,
+				18CE92E81AB11E32007CBB5D /* split.c */,
+				18CE92E91AB11E32007CBB5D /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		18CE93081AB11F69007CBB5D /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CE92D91AB11E32007CBB5D /* libqrencode */,
+				18CE93061AB11EE0007CBB5D /* MessageUI.framework */,
+				18CE93041AB11ED5007CBB5D /* UIKit.framework */,
+				18CE93021AB11ECD007CBB5D /* SystemConfiguration.framework */,
+				18CE93001AB11EC2007CBB5D /* MobileCoreServices.framework */,
+				18CE92FE1AB11EB0007CBB5D /* libsqlite3.0.dylib */,
+				18CE92FC1AB11E8E007CBB5D /* libicucore.dylib */,
+				18CE92FA1AB11E81007CBB5D /* libiconv.dylib */,
+				18CE92F81AB11E72007CBB5D /* Foundation.framework */,
+				18CE92F61AB11E68007CBB5D /* CoreLocation.framework */,
+				18CE92F41AB11E60007CBB5D /* CoreTelephony.framework */,
+				18CE92F21AB11E56007CBB5D /* CoreGraphics.framework */,
+			);
+			name = Framworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +609,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE92B21AB11D64007CBB5D /* googleplus F.png in Resources */,
+				18CE929F1AB11D64007CBB5D /* 名片夹@2x.png in Resources */,
+				18CE92961AB11D64007CBB5D /* 扫一扫@2x.png in Resources */,
+				18CE92A81AB11D64007CBB5D /* vine F.png in Resources */,
+				18CE92941AB11D64007CBB5D /* 初始化背景@2x.png in Resources */,
+				18CE92CE1AB11D64007CBB5D /* weibo F.png in Resources */,
+				18CE92BC1AB11D64007CBB5D /* instagram F.png in Resources */,
+				18CE92C51AB11D64007CBB5D /* youku F@2x.png in Resources */,
+				18CE929A1AB11D64007CBB5D /* goForwardDisabled@2x.png in Resources */,
+				18CE92CC1AB11D64007CBB5D /* dianpin F.png in Resources */,
+				18CE92A21AB11D64007CBB5D /* reddit L.png in Resources */,
+				18CE92991AB11D64007CBB5D /* cancelEnabled@2x.png in Resources */,
 				18CE920B1AB10FA7007CBB5D /* LaunchScreen.xib in Resources */,
+				18CE92951AB11D64007CBB5D /* QRCodeBackground@2x.png in Resources */,
+				18CE92AD1AB11D64007CBB5D /* path F@2x.png in Resources */,
+				18CE92981AB11D64007CBB5D /* nil@2x.png in Resources */,
+				18CE92A91AB11D64007CBB5D /* vine F@2x.png in Resources */,
+				18CE92A61AB11D64007CBB5D /* tumblr F.png in Resources */,
+				18CE92C01AB11D64007CBB5D /* renren F.png in Resources */,
+				18CE92C21AB11D64007CBB5D /* douban F.png in Resources */,
+				18CE92B81AB11D64007CBB5D /* facebook F.png in Resources */,
+				18CE92AB1AB11D64007CBB5D /* snapchat F@2x.png in Resources */,
+				18CE92BE1AB11D64007CBB5D /* linkedin F.png in Resources */,
+				18CE92D71AB11D64007CBB5D /* mail_background@2x.png in Resources */,
+				18CE92CD1AB11D64007CBB5D /* dianpin F@2x.png in Resources */,
+				18CE92BB1AB11D64007CBB5D /* evernote F@2x.png in Resources */,
+				18CE92A51AB11D64007CBB5D /* quora F@2x.png in Resources */,
+				18CE929C1AB11D64007CBB5D /* goBackEnabled@2x.png in Resources */,
+				18CE92A31AB11D64007CBB5D /* reddit L@2x.png in Resources */,
+				18CE929B1AB11D64007CBB5D /* goBackDisabled@2x.png in Resources */,
+				18CE92B31AB11D64007CBB5D /* googleplus F@2x.png in Resources */,
+				18CE92B71AB11D64007CBB5D /* twitter F@2x.png in Resources */,
+				18CE92C61AB11D64007CBB5D /* zhihu F.png in Resources */,
+				18CE92CA1AB11D64007CBB5D /* taobao F.png in Resources */,
+				18CE92AF1AB11D64007CBB5D /* dribbble F@2x.png in Resources */,
+				18CE92B11AB11D64007CBB5D /* pinterest F@2x.png in Resources */,
+				18CE92D31AB11D64007CBB5D /* wechat moment F@2x.png in Resources */,
+				18CE92A71AB11D64007CBB5D /* tumblr F@2x.png in Resources */,
 				18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */,
+				18CE92CB1AB11D64007CBB5D /* taobao F@2x.png in Resources */,
+				18CE92AE1AB11D64007CBB5D /* dribbble F.png in Resources */,
+				18CE92D51AB11D64007CBB5D /* phone_background@1x.png in Resources */,
+				18CE92A41AB11D64007CBB5D /* quora F.png in Resources */,
+				18CE92B41AB11D64007CBB5D /* email F.png in Resources */,
+				18CE92B61AB11D64007CBB5D /* twitter F.png in Resources */,
+				18CE92C31AB11D64007CBB5D /* douban F@2x.png in Resources */,
+				18CE92C81AB11D64007CBB5D /* alipay F.png in Resources */,
+				18CE92B91AB11D64007CBB5D /* facebook F@2x.png in Resources */,
+				18CE92D21AB11D64007CBB5D /* wechat moment F.png in Resources */,
+				18CE92D01AB11D64007CBB5D /* QQ F.png in Resources */,
+				18CE92B01AB11D64007CBB5D /* pinterest F.png in Resources */,
+				18CE929E1AB11D64007CBB5D /* 我的@2x.png in Resources */,
+				18CE92D11AB11D64007CBB5D /* QQ F@2x.png in Resources */,
+				18CE92C91AB11D64007CBB5D /* alipay F@2x.png in Resources */,
+				18CE92AC1AB11D64007CBB5D /* path F.png in Resources */,
+				18CE92A01AB11D64007CBB5D /* qzone F.png in Resources */,
+				18CE929D1AB11D64007CBB5D /* goForwardEnabled@2x.png in Resources */,
+				18CE92D61AB11D64007CBB5D /* mail_background.png in Resources */,
+				18CE92AA1AB11D64007CBB5D /* snapchat F.png in Resources */,
+				18CE92BF1AB11D64007CBB5D /* linkedin F@2x.png in Resources */,
+				18CE92B51AB11D64007CBB5D /* email F@2x.png in Resources */,
+				18CE92C71AB11D64007CBB5D /* zhihu F@2x.png in Resources */,
+				18CE92CF1AB11D64007CBB5D /* weibo F@2x.png in Resources */,
+				18CE92BA1AB11D64007CBB5D /* evernote F.png in Resources */,
+				18CE92C11AB11D64007CBB5D /* renren F@2x.png in Resources */,
+				18CE92D41AB11D64007CBB5D /* phone_background.png in Resources */,
+				18CE92C41AB11D64007CBB5D /* youku F.png in Resources */,
+				18CE92A11AB11D64007CBB5D /* qzone F@2x.png in Resources */,
+				18CE92971AB11D64007CBB5D /* 我的二维码@2x.png in Resources */,
+				18CE92BD1AB11D64007CBB5D /* instagram F@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +696,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE92ED1AB11E32007CBB5D /* qrencode.c in Sources */,
+				18CE92261AB11204007CBB5D /* ContactInfo.m in Sources */,
+				18CE924D1AB11B22007CBB5D /* BaseViewController.m in Sources */,
+				18CE92F01AB11E32007CBB5D /* rscode.c in Sources */,
+				18CE92471AB11AD6007CBB5D /* MyDetailViewController.m in Sources */,
+				18CE92EF1AB11E32007CBB5D /* qrspec.c in Sources */,
+				18CE923E1AB1176C007CBB5D /* MyCardViewController.m in Sources */,
+				18CE92441AB118B4007CBB5D /* BaseWebViewController.m in Sources */,
+				18CE92EC1AB11E32007CBB5D /* QRCodeGenerator.m in Sources */,
+				18CE92361AB116D0007CBB5D /* QRCodeReaderView.m in Sources */,
+				18CE92231AB111D2007CBB5D /* TheMasterStore.m in Sources */,
+				18CE92F11AB11E32007CBB5D /* split.c in Sources */,
+				18CE92EA1AB11E32007CBB5D /* bitstream.c in Sources */,
+				18CE92EB1AB11E32007CBB5D /* mask.c in Sources */,
+				18CE922C1AB113E6007CBB5D /* TheIconStore.m in Sources */,
 				18CE92061AB10FA7007CBB5D /* AppDelegate.m in Sources */,
+				18CE92411AB11783007CBB5D /* MyQRCodeViewController.m in Sources */,
 				18CE92031AB10FA7007CBB5D /* main.m in Sources */,
+				18CE92301AB1148E007CBB5D /* CardsTableViewController.m in Sources */,
+				18CE92371AB116D0007CBB5D /* QRCodeReaderViewController.m in Sources */,
+				18CE92EE1AB11E32007CBB5D /* qrinput.c in Sources */,
+				18CE923B1AB1174C007CBB5D /* CardsTableDetailViewController.m in Sources */,
+				18CE92291AB112C3007CBB5D /* ContactInfoStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
