@@ -181,9 +181,11 @@
     [self.view addSubview:link4Button];
     
     //右侧按钮
-    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editMyItem:)];
+    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc]initWithTitle:@"编辑" style:UIBarButtonItemStyleDone target:self action:@selector(editMyItem:)];
     self.navigationItem.rightBarButtonItem = rightBtn;
-
+    //左侧按钮
+    UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc]initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(login:)];
+    self.navigationItem.leftBarButtonItem = leftBtn;
     
 }
 
@@ -199,7 +201,9 @@
     
 }
 
-
+-(void)login:(id)sender{
+    
+}
 
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nil bundle:nil];
