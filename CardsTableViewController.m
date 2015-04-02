@@ -12,14 +12,31 @@
 #import "MyQRCodeViewController.h"
 @interface CardsTableViewController ()
 
-@property(nonatomic,strong)UIImageView *backgroundImage;
 @end
 
 @implementation CardsTableViewController
 @synthesize data;
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:nil bundle:nil];
+    if(self){
+        
+    }
+    return self;
+}
+/*
+-(id)init{
+    self = [super init];
+    if(self){
+        
+       
+    }
+    return self;
+}
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    data = [ContactInfoStore defaultStore];
+    /*
     UIImage *imageUnselected = [UIImage imageNamed:@"名片夹.png"];//系统只有一种颜色可以进行染色
     UIImage *imageSelected = [UIImage imageNamed:@"名片夹.png"];//系统只有一种颜色
     
@@ -51,17 +68,13 @@
     [button setImage:image forState:UIControlStateNormal];
     [button addTarget:self action:@selector(openMyQRCode:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];
+    */
+
     
-    data = [ContactInfoStore defaultStore];
-    
-    
-    if ([data.array count] == 0) {
-        self.backgroundImage = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"初始化背景.png"]];
-        self.tableView.backgroundView = nil;
-        
-        self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        [self.view addSubview:self.backgroundImage];
-    }
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -70,22 +83,25 @@
 }
 
 #pragma mark - Table view data source
-
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
+    return 1;
 }
-
+*/
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
+    NSLog(@"data array:count:%lu",(unsigned long)[[data array] count]);
     return [[data array]count];
 
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 55;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellIdentifier"];
-    
-    
+
     if(!cell){
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cellIdentifier"];
     }
@@ -99,13 +115,15 @@
     return cell;
 }
 
+
+
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
     if(editingStyle == UITableViewCellEditingStyleDelete){
         [data.array removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];    }
 }
 
-
+/*
 -(void)scanQRCode:(id)sender{
     static QRCodeReaderViewController *reader = nil;
     static dispatch_once_t onceToken;
@@ -154,7 +172,7 @@
     
 }
 
-
+*/
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     CardsTableDetailViewController *controller = [[CardsTableDetailViewController alloc] init];
@@ -166,9 +184,6 @@
     [self.navigationController pushViewController:controller animated:YES];
 }
 
--(void)readerDidCancel:(QRCodeReaderViewController *)reader{
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 
 

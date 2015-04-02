@@ -12,7 +12,7 @@
 #import "CardsTableViewController.h"
 #import "TheMasterStore.h"
 #import "ContactInfoStore.h"
-
+#import "LoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -23,20 +23,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UITabBarController *tab = [[UITabBarController alloc]init];
+
+    [[UINavigationBar appearance]setBarTintColor:[UIColor colorWithRed:52/255.0 green:52/255.0 blue:52/255.0 alpha:1.0]];
+  
+   // [[UINavigationBar appearance]setTranslucent:NO];
     
-    CardsTableViewController *tableController = [[CardsTableViewController alloc]init];
+    LoginViewController *controller = [[LoginViewController alloc]init];
+    
+    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:controller];
+    controller.navigationItem.title = @"名片";
     
     
     
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:tableController];
-    
-    MyCardViewController *controller = [[MyCardViewController alloc] init];
-    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:controller];
-    
-    [tab setViewControllers:@[nav1,nav2]];
-    
-    self.window.rootViewController = tab;
+    self.window.rootViewController = nav1;
     
  
     

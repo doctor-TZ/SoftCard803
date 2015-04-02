@@ -24,10 +24,14 @@
 }
 
 -(id)init{
-    
+    /*
     NSString *path = [self itemArchivePath];
     array = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
     if(!array){
+     */
+    self = [super init];
+    if(self){
+        
         array = [[NSMutableArray alloc]init];
         
         for(int i = 0; i<17; i++){
@@ -36,6 +40,7 @@
             [array addObject:item];
         }
         
+ 
     }
     return self;
 }

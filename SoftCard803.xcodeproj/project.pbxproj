@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1850A1AE1ACAF38A001F5E9F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A1AC1ACAF38A001F5E9F /* LoginViewController.m */; };
+		1850A1AF1ACAF38A001F5E9F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850A1AD1ACAF38A001F5E9F /* LoginViewController.xib */; };
 		18CE92031AB10FA7007CBB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92021AB10FA7007CBB5D /* main.m */; };
 		18CE92061AB10FA7007CBB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92051AB10FA7007CBB5D /* AppDelegate.m */; };
 		18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92071AB10FA7007CBB5D /* Images.xcassets */; };
@@ -125,6 +127,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1850A1AB1ACAF38A001F5E9F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1850A1AC1ACAF38A001F5E9F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1850A1AD1ACAF38A001F5E9F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftCard803.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE92011AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE92021AB10FA7007CBB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -385,6 +390,9 @@
 			children = (
 				18CE922E1AB1148E007CBB5D /* CardsTableViewController.h */,
 				18CE922F1AB1148E007CBB5D /* CardsTableViewController.m */,
+				1850A1AB1ACAF38A001F5E9F /* LoginViewController.h */,
+				1850A1AC1ACAF38A001F5E9F /* LoginViewController.m */,
+				1850A1AD1ACAF38A001F5E9F /* LoginViewController.xib */,
 				18CE923C1AB1176C007CBB5D /* MyCardViewController.h */,
 				18CE923D1AB1176C007CBB5D /* MyCardViewController.m */,
 				18CE92451AB11AD6007CBB5D /* MyDetailViewController.h */,
@@ -614,6 +622,7 @@
 				18CE92961AB11D64007CBB5D /* 扫一扫@2x.png in Resources */,
 				18CE92A81AB11D64007CBB5D /* vine F.png in Resources */,
 				18CE92941AB11D64007CBB5D /* 初始化背景@2x.png in Resources */,
+				1850A1AF1ACAF38A001F5E9F /* LoginViewController.xib in Resources */,
 				18CE92CE1AB11D64007CBB5D /* weibo F.png in Resources */,
 				18CE92BC1AB11D64007CBB5D /* instagram F.png in Resources */,
 				18CE92C51AB11D64007CBB5D /* youku F@2x.png in Resources */,
@@ -704,6 +713,7 @@
 				18CE92EF1AB11E32007CBB5D /* qrspec.c in Sources */,
 				18CE923E1AB1176C007CBB5D /* MyCardViewController.m in Sources */,
 				18CE92441AB118B4007CBB5D /* BaseWebViewController.m in Sources */,
+				1850A1AE1ACAF38A001F5E9F /* LoginViewController.m in Sources */,
 				18CE92EC1AB11E32007CBB5D /* QRCodeGenerator.m in Sources */,
 				18CE92361AB116D0007CBB5D /* QRCodeReaderView.m in Sources */,
 				18CE92231AB111D2007CBB5D /* TheMasterStore.m in Sources */,
@@ -901,6 +911,7 @@
 				18CE921C1AB10FA7007CBB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803Tests" */ = {
 			isa = XCConfigurationList;
@@ -909,6 +920,7 @@
 				18CE921F1AB10FA7007CBB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
