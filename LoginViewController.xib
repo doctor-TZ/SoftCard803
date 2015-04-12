@@ -14,62 +14,74 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB5-ZM-0cp">
-                    <rect key="frame" x="144" y="130" width="64" height="64"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="55" maxX="0.0" maxY="4"/>
-                    <inset key="titleEdgeInsets" minX="0.0" minY="-4" maxX="0.0" maxY="0.0"/>
-                    <state key="normal" backgroundImage="扫一扫.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="scanQRCode:" destination="-1" eventType="touchUpInside" id="2pU-jP-9g9"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIY-1V-tu7">
-                    <rect key="frame" x="373" y="134" width="64" height="64"/>
-                    <state key="normal" backgroundImage="我的二维码.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="225" horizontalCompressionResistancePriority="740" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIY-1V-tu7">
+                    <rect key="frame" x="269" y="86" width="78" height="93"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-128" minY="0.0" maxX="0.0" maxY="-82"/>
+                    <state key="normal" title="我的二维码" image="我的二维码.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="openMyQRCode:" destination="-1" eventType="touchUpInside" id="yAs-wI-GYP"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM0-1h-Jjk">
-                    <rect key="frame" x="144" y="296" width="64" height="64"/>
-                    <state key="normal" backgroundImage="名片夹.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lM0-1h-Jjk">
+                    <rect key="frame" x="82" y="296" width="180" height="90"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-105" minY="0.0" maxX="0.0" maxY="-87"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-2"/>
+                    <state key="normal" title="名片夹" image="卡片集.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="openCardsTable:" destination="-1" eventType="touchUpInside" id="7ho-Ai-QyR"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNC-AT-Xhf">
-                    <rect key="frame" x="373" y="296" width="64" height="64"/>
-                    <state key="normal" backgroundImage="我的.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="225" horizontalCompressionResistancePriority="740" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTp-BE-B3a">
+                    <rect key="frame" x="82" y="73" width="161" height="171"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-108" minY="0.0" maxX="0.0" maxY="-81"/>
+                    <state key="normal" title="扫一扫" image="扫一扫.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="openMyCard:" destination="-1" eventType="touchUpInside" id="tBb-VT-L76"/>
+                        <action selector="scanQRCode:" destination="-1" eventType="touchUpInside" id="niR-Bh-XZk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xH7-lh-5pp">
+                    <rect key="frame" x="277" y="296" width="180" height="90"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="-105" minY="0.0" maxX="0.0" maxY="-87"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="4" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="我的" image="我的.png">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="openMyCard:" destination="-1" eventType="touchUpInside" id="k1V-IE-FVE"/>
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.24313725490196078" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="lM0-1h-Jjk" secondAttribute="bottom" constant="157" id="1we-9s-HdQ"/>
-                <constraint firstItem="pB5-ZM-0cp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="66" id="Ehw-Sv-MuY"/>
-                <constraint firstAttribute="bottom" secondItem="BNC-AT-Xhf" secondAttribute="bottom" constant="157" id="NRU-SG-Db5"/>
-                <constraint firstAttribute="trailing" secondItem="mIY-1V-tu7" secondAttribute="trailing" constant="38" id="PSv-Rz-jKe"/>
-                <constraint firstItem="mIY-1V-tu7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="130" id="eaV-mN-wZu"/>
-                <constraint firstItem="lM0-1h-Jjk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="66" id="gxk-nL-FFU"/>
-                <constraint firstAttribute="trailing" secondItem="BNC-AT-Xhf" secondAttribute="trailing" constant="38" id="lNX-Km-xI7"/>
-                <constraint firstItem="pB5-ZM-0cp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="130" id="maT-Di-LRq"/>
+                <constraint firstAttribute="bottom" secondItem="lM0-1h-Jjk" secondAttribute="bottom" constant="100" id="1we-9s-HdQ"/>
+                <constraint firstItem="mIY-1V-tu7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Qsq-gA-pF0"/>
+                <constraint firstAttribute="bottom" secondItem="xH7-lh-5pp" secondAttribute="bottom" constant="110" id="Ton-Ro-Iyu"/>
+                <constraint firstItem="lM0-1h-Jjk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="gxk-nL-FFU"/>
+                <constraint firstItem="cTp-BE-B3a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="36" id="nAr-AQ-tbV"/>
+                <constraint firstItem="mIY-1V-tu7" firstAttribute="leading" secondItem="cTp-BE-B3a" secondAttribute="trailing" constant="85" id="tpq-23-nW7"/>
+                <constraint firstItem="xH7-lh-5pp" firstAttribute="leading" secondItem="lM0-1h-Jjk" secondAttribute="trailing" constant="85" id="ts2-hD-WZt"/>
+                <constraint firstItem="cTp-BE-B3a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="xds-wq-M5n"/>
             </constraints>
         </view>
     </objects>
     <resources>
-        <image name="名片夹.png" width="64" height="64"/>
-        <image name="我的.png" width="64" height="64"/>
-        <image name="我的二维码.png" width="64" height="64"/>
-        <image name="扫一扫.png" width="64" height="64"/>
+        <image name="卡片集.png" width="64" height="64"/>
+        <image name="我的.png" width="60" height="41"/>
+        <image name="我的二维码.png" width="63" height="63"/>
+        <image name="扫一扫.png" width="65" height="65"/>
     </resources>
 </document>

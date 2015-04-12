@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		1850A1AE1ACAF38A001F5E9F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850A1AC1ACAF38A001F5E9F /* LoginViewController.m */; };
 		1850A1AF1ACAF38A001F5E9F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850A1AD1ACAF38A001F5E9F /* LoginViewController.xib */; };
+		18B0B2F41ADA11FF007F7AF0 /* 背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B2F31ADA11FF007F7AF0 /* 背景@2x.png */; };
+		18B0B2F61ADA1547007F7AF0 /* 卡片集@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B2F51ADA1547007F7AF0 /* 卡片集@2x.png */; };
+		18B0B2F81ADA1858007F7AF0 /* 我的二维码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B2F71ADA1858007F7AF0 /* 我的二维码@2x.png */; };
+		18B0B3081ADA2B98007F7AF0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B3051ADA2B98007F7AF0 /* logo.png */; };
+		18B0B3091ADA2B98007F7AF0 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B3061ADA2B98007F7AF0 /* logo@2x.png */; };
+		18B0B30A1ADA2B98007F7AF0 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0B3071ADA2B98007F7AF0 /* logo@3x.png */; };
 		18CE92031AB10FA7007CBB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92021AB10FA7007CBB5D /* main.m */; };
 		18CE92061AB10FA7007CBB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE92051AB10FA7007CBB5D /* AppDelegate.m */; };
 		18CE92081AB10FA7007CBB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92071AB10FA7007CBB5D /* Images.xcassets */; };
@@ -30,7 +36,6 @@
 		18CE92941AB11D64007CBB5D /* 初始化背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */; };
 		18CE92951AB11D64007CBB5D /* QRCodeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */; };
 		18CE92961AB11D64007CBB5D /* 扫一扫@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */; };
-		18CE92971AB11D64007CBB5D /* 我的二维码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */; };
 		18CE92981AB11D64007CBB5D /* nil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92541AB11D64007CBB5D /* nil@2x.png */; };
 		18CE92991AB11D64007CBB5D /* cancelEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */; };
 		18CE929A1AB11D64007CBB5D /* goForwardDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */; };
@@ -38,7 +43,6 @@
 		18CE929C1AB11D64007CBB5D /* goBackEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */; };
 		18CE929D1AB11D64007CBB5D /* goForwardEnabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */; };
 		18CE929E1AB11D64007CBB5D /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925A1AB11D64007CBB5D /* 我的@2x.png */; };
-		18CE929F1AB11D64007CBB5D /* 名片夹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */; };
 		18CE92A01AB11D64007CBB5D /* qzone F.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925C1AB11D64007CBB5D /* qzone F.png */; };
 		18CE92A11AB11D64007CBB5D /* qzone F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925D1AB11D64007CBB5D /* qzone F@2x.png */; };
 		18CE92A21AB11D64007CBB5D /* reddit L.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE925E1AB11D64007CBB5D /* reddit L.png */; };
@@ -130,14 +134,20 @@
 		1850A1AB1ACAF38A001F5E9F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1850A1AC1ACAF38A001F5E9F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1850A1AD1ACAF38A001F5E9F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftCard803.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B0B2F31ADA11FF007F7AF0 /* 背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@2x.png"; sourceTree = "<group>"; };
+		18B0B2F51ADA1547007F7AF0 /* 卡片集@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卡片集@2x.png"; sourceTree = "<group>"; };
+		18B0B2F71ADA1858007F7AF0 /* 我的二维码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的二维码@2x.png"; sourceTree = "<group>"; };
+		18B0B3051ADA2B98007F7AF0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		18B0B3061ADA2B98007F7AF0 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		18B0B3071ADA2B98007F7AF0 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		18CE91FD1AB10FA7007CBB5D /* 名片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "名片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE92011AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE92021AB10FA7007CBB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CE92041AB10FA7007CBB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SoftCard803/AppDelegate.h; sourceTree = "<group>"; };
 		18CE92051AB10FA7007CBB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SoftCard803/AppDelegate.m; sourceTree = "<group>"; };
 		18CE92071AB10FA7007CBB5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18CE920A1AB10FA7007CBB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftCard803Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE92101AB10FA7007CBB5D /* 名片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "名片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE92151AB10FA7007CBB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE92161AB10FA7007CBB5D /* SoftCard803Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftCard803Tests.m; sourceTree = "<group>"; };
 		18CE92201AB11191007CBB5D /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
@@ -171,7 +181,6 @@
 		18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初始化背景@2x.png"; sourceTree = "<group>"; };
 		18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeBackground@2x.png"; sourceTree = "<group>"; };
 		18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫@2x.png"; sourceTree = "<group>"; };
-		18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的二维码@2x.png"; sourceTree = "<group>"; };
 		18CE92541AB11D64007CBB5D /* nil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nil@2x.png"; sourceTree = "<group>"; };
 		18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelEnabled@2x.png"; sourceTree = "<group>"; };
 		18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goForwardDisabled@2x.png"; sourceTree = "<group>"; };
@@ -179,7 +188,6 @@
 		18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goBackEnabled@2x.png"; sourceTree = "<group>"; };
 		18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goForwardEnabled@2x.png"; sourceTree = "<group>"; };
 		18CE925A1AB11D64007CBB5D /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
-		18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名片夹@2x.png"; sourceTree = "<group>"; };
 		18CE925C1AB11D64007CBB5D /* qzone F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qzone F.png"; sourceTree = "<group>"; };
 		18CE925D1AB11D64007CBB5D /* qzone F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qzone F@2x.png"; sourceTree = "<group>"; };
 		18CE925E1AB11D64007CBB5D /* reddit L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reddit L.png"; sourceTree = "<group>"; };
@@ -294,9 +302,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B0B3041ADA2B98007F7AF0 /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				18B0B3051ADA2B98007F7AF0 /* logo.png */,
+				18B0B3061ADA2B98007F7AF0 /* logo@2x.png */,
+				18B0B3071ADA2B98007F7AF0 /* logo@3x.png */,
+			);
+			path = logo;
+			sourceTree = "<group>";
+		};
 		18CE91F41AB10FA7007CBB5D = {
 			isa = PBXGroup;
 			children = (
+				18B0B3041ADA2B98007F7AF0 /* logo */,
+				18B0B2F51ADA1547007F7AF0 /* 卡片集@2x.png */,
 				18CE92041AB10FA7007CBB5D /* AppDelegate.h */,
 				18CE92051AB10FA7007CBB5D /* AppDelegate.m */,
 				18CE91FF1AB10FA7007CBB5D /* SoftCard803 */,
@@ -308,8 +328,8 @@
 		18CE91FE1AB10FA7007CBB5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */,
-				18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */,
+				18CE91FD1AB10FA7007CBB5D /* 名片.app */,
+				18CE92101AB10FA7007CBB5D /* 名片Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,9 +442,10 @@
 			isa = PBXGroup;
 			children = (
 				18CE92501AB11D64007CBB5D /* 初始化背景@2x.png */,
+				18B0B2F31ADA11FF007F7AF0 /* 背景@2x.png */,
 				18CE92511AB11D64007CBB5D /* QRCodeBackground@2x.png */,
 				18CE92521AB11D64007CBB5D /* 扫一扫@2x.png */,
-				18CE92531AB11D64007CBB5D /* 我的二维码@2x.png */,
+				18B0B2F71ADA1858007F7AF0 /* 我的二维码@2x.png */,
 				18CE92541AB11D64007CBB5D /* nil@2x.png */,
 				18CE92551AB11D64007CBB5D /* cancelEnabled@2x.png */,
 				18CE92561AB11D64007CBB5D /* goForwardDisabled@2x.png */,
@@ -432,7 +453,6 @@
 				18CE92581AB11D64007CBB5D /* goBackEnabled@2x.png */,
 				18CE92591AB11D64007CBB5D /* goForwardEnabled@2x.png */,
 				18CE925A1AB11D64007CBB5D /* 我的@2x.png */,
-				18CE925B1AB11D64007CBB5D /* 名片夹@2x.png */,
 				18CE925C1AB11D64007CBB5D /* qzone F.png */,
 				18CE925D1AB11D64007CBB5D /* qzone F@2x.png */,
 				18CE925E1AB11D64007CBB5D /* reddit L.png */,
@@ -540,9 +560,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18CE91FC1AB10FA7007CBB5D /* SoftCard803 */ = {
+		18CE91FC1AB10FA7007CBB5D /* 名片 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803" */;
+			buildConfigurationList = 18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "名片" */;
 			buildPhases = (
 				18CE91F91AB10FA7007CBB5D /* Sources */,
 				18CE91FA1AB10FA7007CBB5D /* Frameworks */,
@@ -552,14 +572,14 @@
 			);
 			dependencies = (
 			);
-			name = SoftCard803;
+			name = "名片";
 			productName = SoftCard803;
-			productReference = 18CE91FD1AB10FA7007CBB5D /* SoftCard803.app */;
+			productReference = 18CE91FD1AB10FA7007CBB5D /* 名片.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18CE920F1AB10FA7007CBB5D /* SoftCard803Tests */ = {
+		18CE920F1AB10FA7007CBB5D /* 名片Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803Tests" */;
+			buildConfigurationList = 18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "名片Tests" */;
 			buildPhases = (
 				18CE920C1AB10FA7007CBB5D /* Sources */,
 				18CE920D1AB10FA7007CBB5D /* Frameworks */,
@@ -570,9 +590,9 @@
 			dependencies = (
 				18CE92121AB10FA7007CBB5D /* PBXTargetDependency */,
 			);
-			name = SoftCard803Tests;
+			name = "名片Tests";
 			productName = SoftCard803Tests;
-			productReference = 18CE92101AB10FA7007CBB5D /* SoftCard803Tests.xctest */;
+			productReference = 18CE92101AB10FA7007CBB5D /* 名片Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -593,7 +613,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "SoftCard803" */;
+			buildConfigurationList = 18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "名片" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -606,8 +626,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18CE91FC1AB10FA7007CBB5D /* SoftCard803 */,
-				18CE920F1AB10FA7007CBB5D /* SoftCard803Tests */,
+				18CE91FC1AB10FA7007CBB5D /* 名片 */,
+				18CE920F1AB10FA7007CBB5D /* 名片Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -618,7 +638,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CE92B21AB11D64007CBB5D /* googleplus F.png in Resources */,
-				18CE929F1AB11D64007CBB5D /* 名片夹@2x.png in Resources */,
 				18CE92961AB11D64007CBB5D /* 扫一扫@2x.png in Resources */,
 				18CE92A81AB11D64007CBB5D /* vine F.png in Resources */,
 				18CE92941AB11D64007CBB5D /* 初始化背景@2x.png in Resources */,
@@ -631,7 +650,9 @@
 				18CE92A21AB11D64007CBB5D /* reddit L.png in Resources */,
 				18CE92991AB11D64007CBB5D /* cancelEnabled@2x.png in Resources */,
 				18CE920B1AB10FA7007CBB5D /* LaunchScreen.xib in Resources */,
+				18B0B2F61ADA1547007F7AF0 /* 卡片集@2x.png in Resources */,
 				18CE92951AB11D64007CBB5D /* QRCodeBackground@2x.png in Resources */,
+				18B0B3091ADA2B98007F7AF0 /* logo@2x.png in Resources */,
 				18CE92AD1AB11D64007CBB5D /* path F@2x.png in Resources */,
 				18CE92981AB11D64007CBB5D /* nil@2x.png in Resources */,
 				18CE92A91AB11D64007CBB5D /* vine F@2x.png in Resources */,
@@ -640,9 +661,11 @@
 				18CE92C21AB11D64007CBB5D /* douban F.png in Resources */,
 				18CE92B81AB11D64007CBB5D /* facebook F.png in Resources */,
 				18CE92AB1AB11D64007CBB5D /* snapchat F@2x.png in Resources */,
+				18B0B3081ADA2B98007F7AF0 /* logo.png in Resources */,
 				18CE92BE1AB11D64007CBB5D /* linkedin F.png in Resources */,
 				18CE92D71AB11D64007CBB5D /* mail_background@2x.png in Resources */,
 				18CE92CD1AB11D64007CBB5D /* dianpin F@2x.png in Resources */,
+				18B0B30A1ADA2B98007F7AF0 /* logo@3x.png in Resources */,
 				18CE92BB1AB11D64007CBB5D /* evernote F@2x.png in Resources */,
 				18CE92A51AB11D64007CBB5D /* quora F@2x.png in Resources */,
 				18CE929C1AB11D64007CBB5D /* goBackEnabled@2x.png in Resources */,
@@ -666,6 +689,7 @@
 				18CE92C31AB11D64007CBB5D /* douban F@2x.png in Resources */,
 				18CE92C81AB11D64007CBB5D /* alipay F.png in Resources */,
 				18CE92B91AB11D64007CBB5D /* facebook F@2x.png in Resources */,
+				18B0B2F41ADA11FF007F7AF0 /* 背景@2x.png in Resources */,
 				18CE92D21AB11D64007CBB5D /* wechat moment F.png in Resources */,
 				18CE92D01AB11D64007CBB5D /* QQ F.png in Resources */,
 				18CE92B01AB11D64007CBB5D /* pinterest F.png in Resources */,
@@ -686,8 +710,8 @@
 				18CE92D41AB11D64007CBB5D /* phone_background.png in Resources */,
 				18CE92C41AB11D64007CBB5D /* youku F.png in Resources */,
 				18CE92A11AB11D64007CBB5D /* qzone F@2x.png in Resources */,
-				18CE92971AB11D64007CBB5D /* 我的二维码@2x.png in Resources */,
 				18CE92BD1AB11D64007CBB5D /* instagram F@2x.png in Resources */,
+				18B0B2F81ADA1858007F7AF0 /* 我的二维码@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,7 +769,7 @@
 /* Begin PBXTargetDependency section */
 		18CE92121AB10FA7007CBB5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18CE91FC1AB10FA7007CBB5D /* SoftCard803 */;
+			target = 18CE91FC1AB10FA7007CBB5D /* 名片 */;
 			targetProxy = 18CE92111AB10FA7007CBB5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -844,7 +868,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoftCard803/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "名片";
 			};
 			name = Debug;
 		};
@@ -854,7 +878,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoftCard803/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "名片";
 			};
 			name = Release;
 		};
@@ -872,7 +896,7 @@
 				);
 				INFOPLIST_FILE = SoftCard803Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "名片Tests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCard803.app/SoftCard803";
 			};
 			name = Debug;
@@ -887,7 +911,7 @@
 				);
 				INFOPLIST_FILE = SoftCard803Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "名片Tests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCard803.app/SoftCard803";
 			};
 			name = Release;
@@ -895,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "SoftCard803" */ = {
+		18CE91F81AB10FA7007CBB5D /* Build configuration list for PBXProject "名片" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CE92181AB10FA7007CBB5D /* Debug */,
@@ -904,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803" */ = {
+		18CE921A1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "名片" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CE921B1AB10FA7007CBB5D /* Debug */,
@@ -913,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "SoftCard803Tests" */ = {
+		18CE921D1AB10FA7007CBB5D /* Build configuration list for PBXNativeTarget "名片Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CE921E1AB10FA7007CBB5D /* Debug */,
